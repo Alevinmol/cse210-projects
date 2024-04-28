@@ -12,7 +12,7 @@ class Program
 
         string letter = "";
 
-        if (percent >= 90)
+        if (percent >=90)
         {
             letter = "A";
         }
