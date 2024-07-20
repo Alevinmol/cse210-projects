@@ -1,0 +1,19 @@
+30
+SimpleGoal
+dormir
+dormir mas
+10
+True
+EternalGoal
+comer
+desayunar, comer y cenar
+10
+False
+ChecklistGoal
+despertar
+despertar a las 6
+10
+False
+3
+0
+20
