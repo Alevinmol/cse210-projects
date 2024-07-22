@@ -6,10 +6,10 @@ public class Event
     private string _description;
     private string _date;
     private string _time;
-    private string _address;
+    private Address _address;
     private string _type;
 
-    public Event(string title, string description, string date, string time, string address, string type)
+    public Event(string title, string description, string date, string time, Address address, string type)
     {
         _title = title;
         _description = description;
@@ -19,9 +19,15 @@ public class Event
         _type = type;
     }
 
+    public string GetTypeOfEvent()
+    {
+        return _type;
+    }
+
     public void StandardDetails()
     {
-        Console.WriteLine($"Title: {_title}\n Description: {_description}\n Date: {_date}\n Time: {_time}\n Address: {_address}");
+        string address = _address.AllFields();
+        Console.WriteLine($"Title: {_title}\n Description: {_description}\n Date: {_date}\n Time: {_time}\n Address: {address}");
     }
 
     public void ShortDescription()
