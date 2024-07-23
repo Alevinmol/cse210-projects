@@ -18,6 +18,6 @@ public class Entry
 
     public override string ToString()
     {
-        return $"Date: {_date}∖nPrompt: {_prompt}∖nResponse: {_response}∖n";
+        return $"Date: {_date}\nPrompt: {_prompt}\nResponse: {_response}\n";
     }
 }
